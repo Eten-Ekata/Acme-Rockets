@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier":"npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eten-Ekata/Landing-Page-With-Tailwind-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eten-Ekata/Landing-Page-With-Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/Eten-Ekata/Landing-Page-With-Tailwind-CSS#readme"
+}
